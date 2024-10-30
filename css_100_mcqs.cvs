@@ -1,0 +1,100 @@
+,Qustion,Option1,Option2,Option3,Option4,Answer
+0,What does CSS stand for?, Cascading Style Sheets, Computer Style Sheets, Creative Style Sheets, Colorful Style Sheets,a
+1,Which HTML tag is used to define an internal style sheet?, <style>, <script>, <css>, <link>,a
+2,Which is the correct CSS syntax?, body:color=black;, {body;color:black;}, body {color: black;}, {body:color=black;},c
+3,4. How do you change the background color of an element to blue?, background: blue;, bgcolor: blue;, background-color: blue;, color: blue;,c
+4,How do you change the text color of an element to red?, color: red;, text-color: red;, font-color: red;, text: red;,a
+5,6. Which is not a valid CSS unit?, px, em, dp, rem,c
+6,What does the z-index property control?, The stacking order of elements, The transparency of elements, The visibility of elements, The position of elements,a
+7,8. Which CSS property would you use to make the text bold?, font-weight: bold;, text-weight: bold;, font-style: bold;, text-style: bold;,a
+8,9.	write a CSS rule to select an element with an ID of 'header'?, header { }, #header { }, .header { }, *header { },b
+9,10.	Which of the following is the correct way to link an external CSS file in HTML?," <link href=""styles.css"" rel=""stylesheet"" type=""text/css"">"," <link src=""styles.css"" rel=""stylesheet"">"," <style href=""styles.css"" rel=""stylesheet"">"," <link href=""styles.css"" rel=""stylesheet"" type=""stylesheet"">",a
+10,11. What symbol is used to target a class in CSS? , . , # , * , ~ ,a
+11,12.	Which symbol is used for ID selectors in CSS?, *, ., #, |,c
+12,13. How do you select all p elements inside a div? , div p , p div  , div.p, p > div ,a
+13,14.	How do you apply a style to multiple classes in one rule?," .class1, .class2 { }", .class1.class2 { }," class1, class2 { }", .class1 .class2 { },a
+14,"15.	How do you select an element with an attribute data-role=""admin""?", *[data-role=admin]," [data-role=""admin""]", data-role.admin," @data-role=""admin""",b
+15,16. Which of these selectors has the highest specificity? , #id , .class , element , * ,a
+16,17.	What does the descendant selector do?, Matches all elements that are children of a specified element, Matches all elements that are direct children of a specified element, Matches all elements that are siblings of a specified element, Matches all elements that are descendants of a specified element,d
+17,18. Which pseudo-class would you use to select every even-numbered child of a parent? , :nth-child(odd) , :nth-child(2n) , :nth-child(even) , :nth-child(2) ,b
+18,19.	How do you select an element only if it has both class1 and class2?, .class1 .class2," .class1, .class2", .class1.class2, #class1 #class2,c
+19,20.	How do you target a p element only when it's the first child of its parent?, p:first-of-type, p:first-child, p:first, p:nth-child(1),b
+20,"21. Which property is used to add space inside of an element, around its content? ", padding , margin , border , spacing ,a
+21,"22.	Which property is used to add space outside of an element, around its border?", padding, margin, border, spacing,b
+22,23. How do you set a margin of 10px on all sides of an element? , margin: 10px; , padding: 10px; , margin-all: 10px; , border-spacing: 10px; ,a
+23,24.	How do you remove the padding from an element?, padding: 0;, margin: 0;, padding: none;, border-spacing: 0;,a
+24,25.	What value would you use to center an element horizontally?, margin: auto;, padding: auto;, text-align: center;, display: center;,a
+25,26. Which property controls the width of the border? , border-width , border-size , border-thickness , border-height ,a
+26,27.	What is the default value of the box-sizing property?, content-box, border-box, padding-box, margin-box,a
+27,28. How do you create a 1px solid black border around an element? , border: 1px solid black; , border: solid black 1px; , border-width: 1px; border-style: solid; border-color: black; , border: black 1px solid; ,a
+28,"29.	How do you apply different padding values for each side of an element (top, right, bottom, left)?", padding: 10px 20px 30px 40px;	," padding: 10px, 20px, 30px, 40px;", padding: 10px 20px 30px 40px;, padding: top 10px right 20px bottom 30px left 40px;,a
+29,30.	What property would you use to create space between a border and the content inside an element?, padding, margin, border-spacing, outline-spacing,a
+30,31. Which property is used to specify the position of an element? , position , layout , display , top ,a
+31,32.	What value of the position property will remove an element from the normal document flow?, absolute, relative, static, fixed,a
+32,"33. How do you fix an element at the top of the viewport, even when scrolling? ", position: fixed; , position: absolute; , position: relative; , position: static; ,a
+33,34.	How do you create a floating element on the right side of the container?, float: right;, align: right;, position: right;, display: right;,a
+34,35.	Which CSS property clears the floating effect of an element?, clear, float, overflow, display,a
+35,36. What does the display: flex; property do? , Creates a flexible container for child elements , Aligns elements to the left or right , Stretches elements to fit the container , Applies a grid layout to the container ,a
+36,37.	What is the default position value of an element?, static, relative, absolute, fixed,a
+37,38. How do you center an element both horizontally and vertically in a container using Flexbox? , display: flex; justify-content: center; align-items: center; , display: flex; justify-content: middle; align-items: middle; , display: block; margin: auto; , display: flexbox; align: center; ,a
+38,39.	How do you create a two-column layout using Flexbox?, display: flex; flex-direction: row;, display: flex; flex-direction: column;, display: block; float: left;, display: grid; grid-template-columns: 1fr 1fr;,a
+39,40.	How do you prevent a container from stretching wider than its content in Flexbox?, flex-wrap: nowrap;, flex-wrap: wrap;, flex-basis: auto;, justify-content: flex-start;,b
+40,41. Which property is used to change the font size? , font-size , font , text-size , size ,a
+41,42.	Which CSS property is used to make text italic?, font-style: italic;, font-weight: italic;, font: italic;, text-style: italic;,a
+42,43. How do you set the font family for an element? ," font-family: Arial, sans-serif; "," font: Arial, sans-serif; "," font-type: Arial, sans-serif; "," font-style: Arial, sans-serif; ",a
+43,44.	How do you set the font size to be responsive?, font-size: 2em;, font-size: 20px;, font-size: medium;, font-size: responsive;,a
+44,45.	How do you add an underline to text in CSS?, text-decoration: underline;, font-decoration: underline;, text-style: underline;, text-underline: true;,a
+45,46. Which property is used to control the space between lines of text? , line-height , letter-spacing , word-spacing , text-spacing ,a
+46,47.	How do you capitalize the first letter of each word in CSS?, text-transform: capitalize;, text-style: capitalize;, font-variant: capitalize;, text-transform: uppercase;,a
+47,48. How do you make text bold in CSS? , font-weight: bold; , text-weight: bold; , font-style: bold; , text-style: bold; ,a
+48,49.	How do you set the color of the text?, color: #000;, font-color: #000;, text-color: #000;, font-style: #000;,a
+49,50.	How do you align text to the right in CSS?, text-align: right;, text-align: left;, text-align: center;, text-align: justify;,a
+50,"51. What does ""responsive design"" mean? ", A design that adjusts to different screen sizes , A design that looks the same on all devices , A design that loads faster on mobile , A design that uses only HTML and CSS ,a
+51,52.	What is a media query in CSS?, A technique to apply styles based on device characteristics, A technique to fetch media files, A method to style HTML media elements, A method to query media files,a
+52,53. How do you write a media query for devices with a max-width of 600px? , @media (max-width: 600px) { } , @media only screen and (max-width: 600px) { } , @media screen and (max-width: 600px) { } , @media (min-width: 600px) { } ,a
+53,54.	How do you make an element take up 100% of the width of its container?, width: 100%;, width: auto;, width: full;, width: inherit;,a
+54,55.	How do you ensure that an image scales with the screen size?, max-width: 100%; height: auto;, width: 100%;, height: auto;, width: 100%; height: 100%;,a
+55,56. Which CSS unit is relative to the width of the viewport? , vw , vh , % , em ,a
+56,57.	What is the purpose of the viewport meta tag?, To control the layout on mobile browsers, To scale images on desktop browsers, To define the color scheme of a page, To set the background of a page,a
+57,58. How do you create a responsive grid layout in CSS? ," display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); ", display: grid; grid-template-columns: 1fr 1fr; , display: grid; grid-template-columns: 100px 100px; , display: grid; grid-template-rows: auto; ,a
+58,59.	How do you hide an element on screens smaller than 768px?, @media (max-width: 768px) { display: none; }, @media (min-width: 768px) { display: none; }, @media (max-width: 768px) { visibility: hidden; }, @media (min-width: 768px) { visibility: hidden; },a
+59,60.	How do you create a flexible image gallery using Flexbox?, display: flex; flex-wrap: wrap;, display: block; float: left;, display: grid;, display: inline-block;,a
+60,61. Which CSS property is used to create an animation? , animation , transition , transform , keyframes ,a
+61,62.	What is the purpose of @keyframes in CSS?, To define the steps in an animation, To set the timing of an animation, To control the speed of a transition, To apply styles to hover states,a
+62,63. How do you apply a 2-second fade-in effect to an element? , animation: fadein 2s; , transition: opacity 2s; , transition: fadein 2s; , animation: opacity 2s; ,b
+63,64.	How do you move an element from left to right using CSS animations?, @keyframes move { from { left: 0; } to { left: 100%; } }, @keyframes move { from { left: 0; } to { left: 100px; } }, @keyframes move { 0% { left: 0; } 100% { left: 100%; } }, @keyframes move { 0% { left: 0; } 100% { left: 100px; } },c
+64,65.	Which property allows you to delay the start of an animation?, animation-delay, transition-delay, animation-duration, transition-duration,a
+65,66. What is the difference between animation and transition in CSS? , animation allows more complex movements than transition ," transition allows looping, but animation does not "," animation requires user interaction, while transition does not "," transition supports keyframes, but animation does not ",a
+66,67.	Which CSS property can you use to change the timing function of an animation?, animation-timing-function, transition-timing-function, animation-duration, transition-duration,a
+67,68. How do you apply a hover effect that scales an element by 1.2 times? , transition: transform 0.3s; &:hover { transform: scale(1.2); }, animation: transform 0.3s; &:hover { transform: scale(1.2); } , transform: scale(1.2); &:hover { animation: scale 0.3s; } , scale: 1.2; &:hover { transform: 1.2; } ,a
+68,69.	How do you rotate an element by 45 degrees using CSS?, transform: rotate(45deg);, animation: rotate(45deg);, transition: rotate(45deg);, rotate: 45deg;,a
+69,70.	How do you create a bouncing effect with CSS animations?," @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }", @keyframes bounce { 0% { transform: translateY(0); } 50% { transform: translateY(-20px); } 100% { transform: translateY(0); } }, @keyframes bounce { from { transform: translateY(0); } to { transform: translateY(-20px); } }, @keyframes bounce { 0% { transform: translateY(-20px); } 100% { transform: translateY(0); } },a
+70,71. What is the purpose of the !important rule in CSS? , To override all other declarations for that property , To prioritize user agent styles , To prevent the property from being inherited , To apply the style only in print view ,a
+71,72.	Which CSS feature allows you to define variables?, CSS Variables (Custom Properties), SASS Variables, CSS Functions, Inline Styles,a
+72,73. How do you define a CSS variable? , --main-color: #333; , var-main-color: #333; , $main-color: #333; , #main-color: #333; ,a
+73,74.	How do you use a CSS variable?, color: var(--main-color);, color: --main-color;, color: $main-color;, color: #main-color;,a
+74,75.	Which CSS property can be used to create a grid layout?, display: grid;, display: block;, display: flex;, display: inline-block;,a
+75,76. Which CSS feature allows you to create reusable styles across multiple elements? , CSS Classes , CSS IDs , CSS Variables , Inline Styles ,a
+76,77.	What is the purpose of the calc() function in CSS?, To perform calculations to determine CSS property values, To concatenate strings in CSS, To apply conditionals in CSS, To define animations in CSS,a
+77,78. How do you create a responsive grid using CSS Grid? ," grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); ", grid-template-columns: 1fr 1fr; , grid-template-columns: 200px 200px; , grid-template-columns: auto; ,a
+78,79.	How do you apply a style only when the screen width is between 600px and 800px?, @media (min-width: 600px) and (max-width: 800px) { }, @media (max-width: 600px) and (min-width: 800px) { }, @media (min-width: 600px) or (max-width: 800px) { }, @media (width: 600px) and (width: 800px) { },a
+79,81. What does the :hover pseudo-class do?, Applies styles when an element is being hovered by the mouse, Applies styles when an element is clicked, Applies styles when an element is focused, Applies styles when an element is visited,a
+80,Which pseudo-class would you use to style the first child element of a parent?, :first-child, :nth-child(1), :first-of-type, :only-child,a
+81,83. How do you apply a style to every odd-numbered list item?, li:nth-child(odd), li:nth-of-type(odd), li:nth-child(2n+1), li:nth-of-type(2n+1),c
+82,How do you select the last element of a specific type in CSS?, :last-of-type, :last-child, :nth-last-child(1), :nth-of-type(1),a
+83,Which pseudo-element would you use to insert content before an element?, ::before, ::after, ::first-letter, ::first-line,a
+84,86. What is the difference between :first-child and :nth-child(1)?," No difference, they select the same element", :first-child is more specific than :nth-child(1)," :first-child selects the first child regardless of type, while :nth-child(1) only selects the first child of a specific type", :nth-child(1) is a newer syntax for :first-child,c
+85,"Which pseudo-class is used to style elements based on their state, like ""enabled"" or ""disabled""?", :disabled, :active, :focus, :enabled,d
+86,88. How do you style the first letter of a paragraph in CSS?, p::first-letter { }, p:first-letter { }, p::first-line { }, p:first-line { },a
+87,How do you select and style every third paragraph in a document?, p:nth-of-type(3n) { }, p:nth-child(3) { }, p:nth-of-type(3) { }, p:nth-child(3n) { },a
+88,Which pseudo-element is used to apply styles to the first line of a block of text?, ::first-line, ::first-letter, ::before, ::after,a
+89,91. Which rule has the highest specificity?, #id, .class, element, *,a
+90,What does CSS inheritance mean?, Child elements automatically receive certain properties from their parent elements, Parent elements receive properties from their child elements, All elements receive properties from the body element, Inherited properties cannot be overridden,a
+91,93. How do you override a style applied by a parent element?, By applying a more specific selector, By using the !important keyword, By using inline styles, All of the above,d
+92,Which has higher specificity: a class selector or an attribute selector?, Class selector, Attribute selector, Both have the same specificity, It depends on the browser,a
+93,"How do you select an element with both class ""header"" and id ""main""?", #main.header, .header#main, #main .header, .header #main,a
+94,96. What happens if two selectors have the same specificity but conflicting styles?, The style defined later in the CSS file will be applied, The style defined first in the CSS file will be applied, Both styles will be applied, Neither style will be applied,a
+95,Which of the following is NOT considered when calculating CSS specificity?, The order of the rules in the CSS file, The number of classes in the selector, The number of IDs in the selector, The number of elements in the selector,a
+96,98. How do you apply a style to all paragraphs except those with a specific class?, p:not(.class) { }, p .class { }, p.exclude-class { }, p !class { },a
+97,Which selector has the highest specificity?, #content p, .nav-item a, div > .content, a:hover,a
+98,What is the correct order of specificity from lowest to highest? , element < class < id , class < id < element , id < element < class , element < id < class ,

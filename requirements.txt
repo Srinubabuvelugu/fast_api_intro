@@ -1,2 +1,13 @@
 fastapi
 uvicorn[standrd]
+python-multipart
+regex
+pydantic[email]
+python-jose[cryptography]
+passlib[bcrypt]
+SQLAlchemy
+pymysql
+pytest
+mock
+requests
+httpx

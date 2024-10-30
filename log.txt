@@ -1,0 +1,8 @@
+No query message send to {email}  
+No query message send to blahblah@gmail.com  
+ Found Query: this is srinubabu , your python developer
+message to blahblah@gmail.com 
+ Found Query: this is srinubabu , your ' s new python developer
+message to blahblah@gmail.com 
+ Found Query: this is srinubabu , your's new python developer
+message to blahblah@gmail.com 
